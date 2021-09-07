@@ -272,14 +272,11 @@ html, body {
 
   .images > .sample-img {
     margin: 0 auto;
+    font-size: 0;
   }
 
   .sample-img a {
     display: block;
-  }
-
-  .images {
-    font-size: 0;
   }
 
   .sample-img:nth-child(4) {
