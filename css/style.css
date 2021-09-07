@@ -271,12 +271,15 @@ html, body {
   }
 
   .images > .sample-img {
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0 auto;
   }
 
-  .sample-img img {
-    vertical-align: bottom;
+  .sample-img a {
+    display: block;
+  }
+
+  .images {
+    font-size: 0;
   }
 
   .sample-img:nth-child(4) {
