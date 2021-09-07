@@ -216,6 +216,10 @@ html, body {
   transition: 0.3s;
 }
 
+.sns-icon a {
+  display: block;
+}
+
 .icon {
   width: 185px;
   font-size: 40px;
@@ -263,19 +267,18 @@ html, body {
   }
 
   .images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+  }
+
+  .images > .sample-img {
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .sample-img img {
     vertical-align: bottom;
   }
 
-  .sample-img:nth-child(n) {
-    margin: 0;
-  }
-  
   .sample-img:nth-child(4) {
     margin-top: 80px;
   }
